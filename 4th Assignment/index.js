@@ -1,18 +1,18 @@
 "use strict";
-/*let a = 10;
+let a = 10;
 let b = 15;
 console.log(a + b);
 if (a > b) {
-  console.log("true");
-} else {
-  console.log("false");
+    console.log("true");
 }
-
+else {
+    console.log("false");
+}
 for (a = 10; a <= 21; a += 3) {
-  {
-    console.log(a);
-  }
-}*/
+    {
+        console.log(a);
+    }
+}
 //1. Hello World
 let greeting = "Hello World!";
 console.log(greeting);
@@ -46,22 +46,22 @@ let d2 = 40;
 s1++;
 console.log(s1);
 //7. Logical Gates
-let q1 = "IRFAN";
-let w1 = "SAIF";
-let e1 = "JAWAD";
-if (q1 === "IRFAN" || w1 === "SAIF1")
+let q1 = "SHAHID";
+let w1 = "MOHSIN";
+let e1 = "RAFQAT";
+if (q1 === "SHAHID" || w1 === "SAIF1")
     console.log("true");
 else
     console.log("false");
-if (q1 === "IRFAN" && w1 === "JAWAD")
+if (q1 === "MOHSIN" && w1 === "RAFQAT")
     console.log("true");
 else
     console.log("false");
-if (q1 != "IRFAN" || (w1 = "SAIF"))
+if (q1 != "SHAHID" || (w1 = "MOHSIN"))
     console.log("true");
 else
     console.log("false");
-if (q1 != "SAIF" || (w1 = "SAIF"))
+if (q1 != "MOHSIN" || (w1 = "MOHSIN"))
     console.log("true");
 else
     console.log("false");
